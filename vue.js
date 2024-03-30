@@ -10,16 +10,16 @@ var app = createApp({
             images: [
                 {
                     id: "1",
-                    description: "docs/assets/banner_v9.png",
+                    path: "docs/assets/banner_v9.png",
                     description2: "Banner do Canal do Youtube",
-                    path: "Versão 9"
+                    description: "Versão 9"
 
                 },
                 {
-                    id: "2",
-                    description: "docs/assets/games.png",
-                    description2: "Banner Games ",
-                    path: "Banner estilizado para Twitch"
+                    id: "2",                    
+                    description: "Banner estilizado para Twitch",
+                    description2: "Banner Games Twitch",                    
+                    path: "docs/assets/games.png",
                 },
                 {
                     id: "3",
