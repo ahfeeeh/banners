@@ -6,17 +6,17 @@ createApp({
       const message = ref('Hello vue!')
       const images = [
         {
-            id: "1",
+            id: "1",            
+            description: "Banner do Canal do Youtube",
+            description2: "Versão 9",
             path: "docs/assets/banner_v9.png",
-            description2: "Banner do Canal do Youtube",
-            description: "Versão 9"
 
         },
         {
             id: "2",                    
-            description: "Banner estilizado para Twitch",
-            description2: "Banner Games Twitch",                    
-            path: "docs/assets/games.png",
+            description: "Banner Games Twitch",                    
+            description2: "Banner estilizado para Twitch",            
+            path: "docs/assets/games.png"
         },
         {
             id: "3",
@@ -102,15 +102,9 @@ createApp({
             description: "",
             description2: "",
             path: "docs/assets/novo_pi_01.png"
-        },
+        },      
         {
             id: "17",
-            description: "Banner do Novo PI",
-            description2: "Primeira Versão",
-            path: "docs/assets/novo_pi_01.png"
-        },
-        {
-            id: "18",
             description: "Amps V3",
             description2: "Terceira Versão",
             path: "docs/assets/amps_v3.png"
